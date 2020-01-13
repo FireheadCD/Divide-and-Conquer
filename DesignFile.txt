@@ -1,0 +1,14 @@
+Connor M Dysart
+Dr. Mamoun
+
+Divide and Conquer
+Call Upon the middle of the element chosen.
+Adjust pivot in arrays if the combined elements are less than the nth value
+We compare each value of the two arrays at the pivot points, and we can decide where to search from there
+If its smaller we go higher, if its larger, then we go smaller
+
+int[] A = {0, 6, 19, 25, 96, 201, 9001};
+int[] B = {1, 15, 111, 202, 9000};
+
+we take the pivot in the middle of the arrays, and we go from there
+For example, the 4th largest element should be 201
